@@ -20,11 +20,19 @@ namespace ConsoleApp4
 
             Console.WriteLine(b.ToString());
 
-            double d = a.Distancia(b);
-            Console.WriteLine("Distancia" + d);
+            
 
            
+            Punto3D e;
+            e = new Punto3D(3, 4, 5.1);
+            Console.WriteLine(e.ToString());
 
+            Punto3D f;
+            f = new Punto3D(6, 7, 4);
+            Console.WriteLine(f.ToString());
+
+            double d = e.Distancia(f);
+            Console.WriteLine("Distancia" + d);
             Console.ReadKey();
 
         }
