@@ -20,9 +20,9 @@ namespace ConsoleApp4
 
             Console.WriteLine(b.ToString());
 
-            Punto3D z;
-            z = new Punto3D();
-            Console.WriteLine(z.ToString());
+            //Punto3D z;
+            //z = new Punto3D();
+            //Console.WriteLine(z.ToString());
             
 
             Punto3D e;
